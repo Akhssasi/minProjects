@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* color : {
+
+    #FBE4D6  text
+    #441752 background color button
+    #441752 background color section
+    #0C0950 background color body
+} */
+
+
+body{
+    width: 100%;
+    background-color: #09122C;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+}
+.contener{
+    padding: 0px 20px;
+    width: 90%;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #9996ca;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+.logo{
+    
+    color: #FBE4D6;
+    text-decoration: none;
+    width: 70px;
+    padding: 7px;
+    border-radius: 4px;
+    background-color: #441752;
+    text-align: center;
+    align-items: center;
+}
+.navegation ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.navegation ul li{
+    width: 40px;
+    height: 25px;
+    background-color: #441752;
+    border-radius: 5px;
+}
+
+/* section home 1 */
+
+.sectionHome{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 60vh;
+    background-color: #441752;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 10px;
+}
+.sectionHome div{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    background-color: #9996ca ;
+    border-radius: 5px;
+}
+
+/* section 2 service  */
+
+.info_service{
+    height: 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #441752;
+    border-radius: 5px;
+}
+.info_service div{
+    background-color: #9996ca;
+    height: 60px;
+    border-radius: 5px;
+}
+
+
+/* start main  style  */
+
+
+.main_page{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    background-color: #441752;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.article_page{
+    display: block;
+    gap: 10px;
+    width: 80%;
+    padding: 10px;
+
+}
+.article_page article{
+    width: 100%;
+    background-color: #9996ca;
+    height: 120px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.aside_page{
+    position: relative;
+    padding: 10px;
+    height: 280px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.aside_page aside{
+    padding: 10px;
+    margin: 10px auto; 
+    height: 100%;
+    background-color: #9996ca;
+    border-radius: 5px;
+}
+
+
+/* end main sectio  */
+
+
+
+/* start footer  */
+
+.footer_page{
+    border-radius: 5px;
+    margin: 10px;
+    width: 90%;
+    margin: auto;
+    background-color: #441752;
+}
+.contener_footer{
+    padding: 10px;
+
+}
+.contener_footer{
+    display: flex;
+
+    gap: 10px;
+}
+.contener_footer div{
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 5px;
+    width: 33%;
+    background-color:#9996ca;
+}
+.contener_footer div ul{
+    list-style-type: none;
+}
+
+.contener_footer div ul li{
+    margin: 5px;
+    width: 90%;
+    height: 25px;
+    background-color: #441752;
+    border-radius: 5px;
+}
+
+.contener_footer_contact{
+    width: 33%;
+    padding: 10px;
+
+}
+
+.contener_footer_contact a{
+    text-align: center;
+    padding: 2px 5px;
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 4px;
+    background-color: #441752;
+
+}
+.contener_footer_contact p{
+    margin: 6px;
+    width: 90%;
+    height:80px;
+    background-color:#441752;
+    border-radius: 4px;
+}
+
+.footer_Decript{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: wheat;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    margin: 0px auto 10px auto;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 11px;
+}
+
+.footer_Decript a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #9996ca;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* # Mobile */
+@media screen and (max-width: 480px){
+
+
+
+
+}
+
+/* # Tablet */
+@media screen and (max-width: 768px) {
+
+}
+
+
+
+/* # Desktop */
+@media screen and (max-width: 992px) {
+
+
+
+}
+
+/* # Huge */
+@media screen and (max-width: 1280px) {
+
+
+
+}
