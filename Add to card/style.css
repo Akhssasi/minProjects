@@ -1,0 +1,93 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    background-color: rgb(11, 7, 79);
+    width: 100%;
+    color: rgb(236, 233, 227);
+}
+section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.cardnumber{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14x;
+    font-weight: 600;
+    top: 10px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+
+
+}
+.productsSection{
+    width: 50%;
+    background-color: rgb(30, 25, 112);
+    padding: 10px;
+    text-align: center;
+}
+.productsSection .contener{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.productsSection .contener div{
+    padding: 6px;
+    border-radius: 6px;
+    background-color: rgba(172, 171, 195, 0.4);
+}
+.bar img{
+    width: 150px;
+
+}
+.tableCardsSction{
+    width: 50%;
+}
+.tableCardsSction h1{
+    text-align: center;
+}
+.tableCardsSction table{
+    margin: 10px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 200;
+    border-collapse: collapse;
+    padding: 4px;
+    text-align: center;
+
+}
+.tableCardsSction table tr td, .tableCardsSction table tr th{
+    border: 2px solid rgb(217, 193, 163,0.4);
+    padding: 4px;
+}
+.tableCardsSction table tr td img{
+    width: 40px;
+    border-radius: 50%;
+}
+.deletproducts{
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0p 0px 10px white;
+    padding: 4px;
+
+    background-color: rgba(204, 7, 7);
+}
